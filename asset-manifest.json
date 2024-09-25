@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/Nishansha-Portfolio/static/css/main.5dd71aad.css",
-    "main.js": "/Nishansha-Portfolio/static/js/main.189515ef.js",
+    "main.js": "/Nishansha-Portfolio/static/js/main.4099f7ed.js",
     "static/css/682.f6a8118c.chunk.css": "/Nishansha-Portfolio/static/css/682.f6a8118c.chunk.css",
     "static/js/682.fe377c73.chunk.js": "/Nishansha-Portfolio/static/js/682.fe377c73.chunk.js",
     "static/css/331.9a35302a.chunk.css": "/Nishansha-Portfolio/static/css/331.9a35302a.chunk.css",
-    "static/js/331.02cb62dc.chunk.js": "/Nishansha-Portfolio/static/js/331.02cb62dc.chunk.js",
+    "static/js/331.5f9c4d78.chunk.js": "/Nishansha-Portfolio/static/js/331.5f9c4d78.chunk.js",
     "static/css/418.bc746f86.chunk.css": "/Nishansha-Portfolio/static/css/418.bc746f86.chunk.css",
     "static/js/418.21de303b.chunk.js": "/Nishansha-Portfolio/static/js/418.21de303b.chunk.js",
     "static/css/361.4d84de48.chunk.css": "/Nishansha-Portfolio/static/css/361.4d84de48.chunk.css",
@@ -61,11 +61,11 @@
     "static/media/CSS.svg": "/Nishansha-Portfolio/static/media/CSS.5fcd7f5683afc0fc6d0186a083262016.svg",
     "static/media/HTML.svg": "/Nishansha-Portfolio/static/media/HTML.ca0db580ffd74f086f2dc2a71dacd660.svg",
     "main.5dd71aad.css.map": "/Nishansha-Portfolio/static/css/main.5dd71aad.css.map",
-    "main.189515ef.js.map": "/Nishansha-Portfolio/static/js/main.189515ef.js.map",
+    "main.4099f7ed.js.map": "/Nishansha-Portfolio/static/js/main.4099f7ed.js.map",
     "682.f6a8118c.chunk.css.map": "/Nishansha-Portfolio/static/css/682.f6a8118c.chunk.css.map",
     "682.fe377c73.chunk.js.map": "/Nishansha-Portfolio/static/js/682.fe377c73.chunk.js.map",
     "331.9a35302a.chunk.css.map": "/Nishansha-Portfolio/static/css/331.9a35302a.chunk.css.map",
-    "331.02cb62dc.chunk.js.map": "/Nishansha-Portfolio/static/js/331.02cb62dc.chunk.js.map",
+    "331.5f9c4d78.chunk.js.map": "/Nishansha-Portfolio/static/js/331.5f9c4d78.chunk.js.map",
     "418.bc746f86.chunk.css.map": "/Nishansha-Portfolio/static/css/418.bc746f86.chunk.css.map",
     "418.21de303b.chunk.js.map": "/Nishansha-Portfolio/static/js/418.21de303b.chunk.js.map",
     "361.4d84de48.chunk.css.map": "/Nishansha-Portfolio/static/css/361.4d84de48.chunk.css.map",
@@ -75,6 +75,6 @@
   },
   "entrypoints": [
     "static/css/main.5dd71aad.css",
-    "static/js/main.189515ef.js"
+    "static/js/main.4099f7ed.js"
   ]
 }

@@ -1,0 +1,30 @@
+/* For the active (present) link - it should always look hovered */
+.activeLink {
+  color: white !important; 
+  background-color: #6165bc !important; 
+  border-radius: 0.5em;
+  margin: auto;
+  padding: 0.25em 0.75em !important;
+  transition: background-color 0.3s ease, color 0.3s ease; 
+}
+
+/* When you hover over the active link, it maintains its look */
+.activeLink:hover {
+  background-color: #6165bc !important; 
+  color: white !important; 
+}
+
+/* For inactive links */
+.inactiveLink {
+  color: black !important; 
+  border-radius: 0.5em;
+  margin: auto;
+  padding: 0.25em 0.75em !important;
+  transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transitions */
+}
+
+/* Hover effect for inactive links */
+.inactiveLink:hover {
+  background-color: #edeef0 !important; 
+  color: rgb(93, 92, 92) !important; 
+}

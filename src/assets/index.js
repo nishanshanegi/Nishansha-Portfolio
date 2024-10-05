@@ -55,6 +55,10 @@ export {default as reduxIcon } from "./Skills/Redux.svg";
 export {default as SASIcon } from "./Skills/SASIcon.jpg";
 export {default as ScikitLearnIcon } from "./Skills/ScikitLearn-Dark.svg";
 export {default as MatlabIcon } from "./Skills/Matlab-Dark.svg";
+export {default as NodeJSIcon } from "./Skills/NodeJS-Dark.svg";
+export {default as PostmanIcon } from "./Skills/Postman.svg";
+
+
 
 
 

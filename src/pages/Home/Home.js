@@ -18,8 +18,9 @@ const Home = () => {
     // Initialize Typed.js
     const options = {
       strings: [
-        "ReactJS Developer",
         "Full Stack Developer",
+        "ReactJS Developer",
+        
         "Python Developer",
         ],
       loop: true,

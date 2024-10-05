@@ -16,8 +16,9 @@ import {
   reduxIcon,
   mongodbIcon,
   SASIcon,
-  ScikitLearnIcon,
-  MatlabIcon,
+  
+  PostmanIcon,
+  NodeJSIcon,
 } from "../../assets"; 
 
 const Skills = () => {
@@ -40,14 +41,16 @@ const Skills = () => {
     { icon: cssIcon, name: "CSS" },
     { icon: reactIcon, name: "React" },
     { icon: reduxIcon, name: "Redux" },
+    { icon: NodeJSIcon, name: "NodeJS" },
+    { icon: ExpressIcon, name: "Express" },
     { icon: tailwindIcon, name: "Tailwind CSS" },
     { icon: djangoIcon, name: "Django" },
-    { icon: ExpressIcon, name: "Express" },
+ 
     { icon: MySQLIcon, name: "MySQL" },
     { icon: GitIcon, name: "Git" },
     { icon: SASIcon, name: "SAS VA" },
-    { icon: ScikitLearnIcon, name: "Scikit Learn" },
-    { icon: MatlabIcon, name: "Matlab" },
+   
+    { icon: PostmanIcon, name: "Postman" },
   ];
 
   return (
@@ -55,7 +58,7 @@ const Skills = () => {
       <div className={styles.blobStyle}></div>
       <Header title="Skills" />
       <p className={styles.introText}>
-        Passionate about new technologies, I keep exploring stuff. Here's the tech stack I've worked with!
+      From languages and frameworks to libraries, tools, databases, and software—these are the core technologies I've worked with, explored, and am constantly growing in—fueling my projects and internships.
       </p>
 
       <div className={styles.skillGrid}>

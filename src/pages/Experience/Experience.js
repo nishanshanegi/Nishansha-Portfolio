@@ -3,16 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Header } from "../../components"; 
 import styles from "./Experience.module.css";
 import { KV3, UR, PU, VR, NU } from "../../assets";
-import { useEffect } from "react";
 
 const Experience = () => {
-  useEffect(() => {
-    // Disable scrolling
-    document.body.style.overflow = 'hidden';
-    return () => {
-      document.body.style.overflow = 'auto';
-    };
-  }, []);
+  
 
   return (
     <React.Fragment>

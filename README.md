@@ -1,6 +1,7 @@
 # Nishansha Portfolio
 
 Welcome to my portfolio! This project showcases my skills and projects as a software developer, built using React and Bootstrap. It serves as an online representation of my work and experiences in the tech industry.
+</br>
 <img src="ScreenshotLive.png"/>
 ## Table of Contents
 

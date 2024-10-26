@@ -1,0 +1,70 @@
+.container {
+  display: flex;
+  height: 4em;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  background: #6265bc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6265bc,
+    #b9bbf3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6265bc,
+    #6265bc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.projects {
+  background: #6265bc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6265bc,
+    #b9bbf3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6265bc, 
+    #6265bc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.experience {
+  background: #6265bc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6265bc,
+    #b9bbf3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6265bc,
+    #6265bc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.involvements {
+  background: #6265bc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #6265bc,
+    #b9bbf3
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #6265bc,
+    #6265bc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+
+.headingOne {
+  font-family: "Lexend";
+  font-size: 2em;
+  color: white;
+}

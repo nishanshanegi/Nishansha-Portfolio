@@ -1,0 +1,178 @@
+/* Main Container Styles */
+body {
+  overflow: hidden; /* Hide scrollbar by default */
+}
+.container {
+  display: flex;
+  align-items: center;
+  padding: 40px 140px 10px; /* Adjust bottom padding */
+  flex-direction: row;
+  min-height: 100vh;
+  justify-content: center;
+  background: linear-gradient(90deg, rgba(239,239,239,1) 39%, rgba(171,162,205,0.6868872549019608) 90%);
+
+}
+
+/* Row Alignment */
+.alignCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  margin: 0; 
+}
+
+/* Description Column */
+.colCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 30px; /* You can keep or adjust this as needed */
+  margin-top: -120px;
+  margin-bottom: 10px;
+}
+
+/* Text Styles */
+.textDesc {
+  color: black;
+}
+
+.greetingText {
+  font-family: 'Poppins', sans-serif; /* Use Poppins or similar clean fonts */
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.nameText {
+  font-family: 'Poppins', sans-serif; /* Use Poppins or similar clean fonts */
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.titleText {
+  color: #6364bc;
+  display: flex;
+  font-size: large;
+  flex-direction: column;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+/* Button Styles */
+.downloadButton {
+  background-color: #6364bc;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-top: 15px;
+  transition: background-color 0.3s;
+  display: inline-flex; 
+  align-items: center; 
+}
+
+.downloadButton > svg { 
+  margin-left: 8px; 
+}
+
+.downloadButton:hover {
+  background-color: #4b4c8c;
+}
+
+/* Image and Icons Layout */
+.imageAndIconsWrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.imageCol {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -150px;
+  margin-bottom: 10px;
+
+}
+
+.professionalHeadshot {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 150px;
+  box-shadow: 10px 10px 15px rgb(188, 120, 207); 
+}
+
+.professionalHeadshot:hover {
+  transform: scale(1.1) rotate(5deg);
+  filter:  grayscale(120%); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease, filter 0.3s ease;
+}
+
+/* Social Icons Styles */
+.socialIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Space between icons */
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+  filter: brightness(1.2);
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column-reverse;
+    padding: 20px;
+  }
+
+  .colCenter {
+    align-items: center;
+    text-align: center;
+  }
+ 
+  .imageCol {
+    margin-top: 20px;
+  }
+  body {
+    overflow: auto; 
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    overflow: auto; 
+  }
+  .nameText {
+    font-size: 1.5em;
+  }
+
+  .professionalHeadshot {
+    height: 10em;
+    width: 10em;
+    
+  }
+
+  .downloadButton {
+    font-size: 1em;
+  }
+  
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+}
